@@ -13,5 +13,5 @@ import retrofit2.http.Query;
 
 public interface CallService {
   @GET("call")
-  Call< ResponseCall > saveCall(@Query("phone") String phone, @Query("call_type") String call_type);
+  Call<ResponseCall> saveCall(@Query("phone") String phone, @Query("call_type") String call_type);
 }
